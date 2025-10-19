@@ -38,8 +38,7 @@ po wykonaniu dla py, ukaze sie struktura:
     ├── setup.py           # konfiguracja Pythona
     └── setup.cfg
 
-![alt text](image.png)
-
+![alt text](images/image.png)
 ## Sprawdzenie package.xml w ktorym sa rozpisane dependencies
 
 TODO: rozpisac [depend], [test_depend], [exec_depend] and more
@@ -67,7 +66,7 @@ katalog config - konfiguracja np ilosc przegubow, dlugosci czy cos tam, jakies p
 
     mkdir -p sub_arm/config
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## instalacja dodatkowych pakietow
 

@@ -72,17 +72,20 @@ def generate_launch_description():
 
 aby ROS znalazl stworzone przez ans pliki t.j. URDF, launch i inne jakie sie w przyszlosci stworzy, zmieniamy setup.py
 
-> pierwotne setup.py:
-![alt text](image-2.png)
+> pierwotne setup.py:  
+![alt text](images/image-2.png)
 
 > w sekcji data_files, dodajemy info gdzie moze znalezc nasze pliki
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ## teraz mozna zbudowac paczke
 
+!tu moga byc problemy - WIP
+
+```bash
 cd ~/ros2_ws
 colcon build --packages-select sub_arm
 source install/setup.bash
 ros2 launch sub_arm display.launch.py
-
+```

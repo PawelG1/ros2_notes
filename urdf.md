@@ -37,7 +37,7 @@ kazde ogniwo ma wiadomo mase, wymiary, geometrie
 
 ## przykład
 
-![alt text](SC_Example.png)
+![alt text](images/SC_Example.png)
 
 ```
 base_link (podstawa - nieruchoma)
