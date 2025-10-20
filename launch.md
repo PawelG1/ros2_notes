@@ -83,6 +83,10 @@ aby ROS znalazl stworzone przez ans pliki t.j. URDF, launch i inne jakie sie w p
 
 !tu moga byc problemy - WIP
 
+## budowanie paczki
+
+    source /opt/ros/jazzy/setup.bash
+
 ```bash
 cd ~/ros2_ws
 colcon build --packages-select sub_arm

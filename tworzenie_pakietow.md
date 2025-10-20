@@ -7,6 +7,8 @@
 
 ## Tworzenie package
 
+    source /opt/ros/jazzy/setup.bash  
+
     ros2 pkg create [nazwa_paczki] [build-type] [dependencies]
 
 > **[build-type]**  e.g.  
@@ -23,6 +25,8 @@
 przechodzimy do workspace i nstp **src**
 
     cd $HOME/ros2_ws/src
+
+source /opt/ros/jazzy/setup.bash
 
 tworzymy paczke:
 
@@ -81,6 +85,13 @@ wezel?biblioteka? publikujacy stan robota:
 rviz - ROS Visualization:
 
     sudo apt install ros-jazzy-rviz2
+
+## budowanie paczki
+    source /opt/ros/jazzy/setup.bash  
+
+    colcon build --packages-select sub_arm  
+
+    source install/setup.bash  
 
 ## teraz mamy paczke stworzona, nic jeszcze nie zadziala xd, trzeba cos popisac i utworzyc executable z tego budujac rzeczy z src - i think
 
