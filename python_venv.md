@@ -101,7 +101,7 @@ touch ~/ros2_ws/venv/COLCON_IGNORE
 ```
 
 potem mozemy juz smialo 
-    colcon build
+    colcon build --packages-select sub_arm
 ---
 WIP
 ![alt text](images/image-5.png)
